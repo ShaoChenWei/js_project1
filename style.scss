@@ -65,8 +65,8 @@ section {
   flex-direction: column;
   align-items: center;
 
-  div.todo {
-    width: 30vw;
+  div.plan {
+    width: 40vw;
     display: flex;
     align-items: center;
     margin: 0.2rem 0rem;
@@ -79,11 +79,11 @@ section {
       font-size: 1.75rem;
     }
 
-    p.todo-text {
-      width: 50%;
-    }
-    p.todo-time {
+    p.plan-letter {
       width: 20%;
+    }
+    p.plan-level {
+      width: 50%;
       text-align: center;
     }
 
@@ -95,7 +95,7 @@ section {
       color: white;
     }
 
-    button.complete {
+    button.gotit {
       background-color: rgb(50, 255, 50);
     }
     button.trash {
